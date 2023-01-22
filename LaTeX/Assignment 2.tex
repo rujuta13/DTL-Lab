@@ -1,0 +1,108 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath} 
+\usepackage{amsfonts}
+\usepackage[shortlabels]{enumitem}
+\begin{document}  
+\title{Mathematics Examination}
+\date{DD-MM-YYYY}
+\author{Rujuta Budke}
+\maketitle
+\pagenumbering{gobble}
+\newpage
+
+\begin{Large}
+\underline{Instructions:}\\
+\end{Large}
+
+
+\noindent \textbf{Duration: 2hrs} \hfill \textbf{Time: 2hrs}
+\begin{enumerate}
+\item Write your MIS number on paper 
+\item Unless otherwise mentioned symbols and notations have their usual standard meaning
+\item Use of any kind of electronic device is NOT allowed
+\item Any essential result, formula or theorem assumed for answering of questions must be clearly stated.
+\end{enumerate}
+
+
+
+\pagebreak
+
+\section{Logical Reasoning}
+\subsection*{Question I}
+1. Establish the logical equivalence, where \textit{x} does not occur as a free variable in A. Assume that domain is non-empty. \hfill [CO3][{\bf 1}]
+\begin{center}
+$ \forall x (A \implies P(x))\equiv \forall x (A \lor P(x))$
+\end{center}
+
+2. Find the conjunction of the propositions \textit{p} and \textit{q} where \textit{p} is the proposition "Rebecca's PC has more than 16GB free hard disk space" and \textit{q} is the proposition "The processor in Rebecca's PC runs faster than 1 GHz'"\hfill [CO1][{\bf 1}]
+
+\subsection*{Question II}
+1. Let \textit{p} and \textit{q} be the propositions "The election is decided" and "The votes have been counted," respectively. Express each of the following compound propositions as an English sentence. \hfill [CO2][{\bf 2}]
+\begin{enumerate}[a)]
+\item $\neg p \land q$
+\item $ p \iff q $
+\end{enumerate} 
+2. Determine the truth value of the each of these domains if the domain consists of all real numbers.\hfill [CO2][{\bf 2}]
+\begin{enumerate}[a)]
+\item $\exists x (x^3 = -1) $
+\item $\forall x((-x)^2 = x^2)$
+\end{enumerate} 
+
+
+\newpage
+\section{Algebra}
+\subsection*{Question I}
+1. Find eigenvalues and corresponding eigenvectors of A = 
+	$\begin{bmatrix}
+	2 & -1 \\ -1 & 2
+	\end{bmatrix}$. Hence, find an orthogonal basis for $ \mathbb{R} ^2$
+	\hfill [CO2][{\bf 2}]\\ \\
+2. Find the rank of matrix $
+	\begin{bmatrix}
+	8 & 6 & 4 & 1 & 3\\
+	2 & 1 & -7 & 4 & 1\\	
+	1 & 1 & -1 & 2 & 1\\
+	1 & -1 & 2 & 0 & 0\\
+	\end{bmatrix}$ 
+	\hfill [CO3][{\bf 3}]
+\subsection*{Question II}
+1. Determine whether $\lbrace 1, x^2, x^2 + 2 \rbrace$ spans $P_2(\mathbb{R})$. Is it linearly independent? Justify your answers.\hfill [CO4][{\bf 1}]\\ \\
+2. Let V be a vector space. Prove that $W_1$ and $W_2$  are subspaces of V then their intersection $W_1 \cup W_2$ is a subspace of V.\hfill [CO2][{\bf 2}]
+\newpage
+\section{Calculus}
+\subsection*{Question I}
+%nested lists
+\begin{enumerate}
+\item Attempt the following questions:
+	\begin{enumerate}[a)]
+	\item Find the particular solution of the initial value problem: \hfill [CO2][{\bf 2}]
+	
+		\begin{align*}
+	\tan x\frac{dy}{dx}&=y
+	\\y(\frac{\pi}{2})&=(\frac{\pi}{2})
+		\end{align*} 
+	
+	\item Check the whether the following differential equation is exact or non-exact and justify your answer.\hfill [CO2][{\bf 2}]
+	 	\begin{equation*}
+	 (1 + \ln xy)dx + (1 + \frac{x}{y})dy = 0
+		\end{equation*} 
+	\end{enumerate}
+\item Find a second order homogeneous LDE for which following are LI solutions: $ e^{-kx}\cos {\pi x}, e^{-kx}\sin {\pi x} $ \hfill [CO3][{\bf 2}]
+\end{enumerate}
+
+\subsection*{Question II}
+\begin{enumerate}
+\item Solve using variation of parameters\hfill [CO3][{\bf 4}]
+	\begin{enumerate}[i)]
+	\item $ y'' + 4y = \cos{2x} $
+	\item $(D^2 + 2D + 2I)y = 4e^{-x} \sec^3 x $
+	\end{enumerate}
+\item Solve the following non-homogeneous LDE using the method of undetermined coefficients:\hfill [CO5][{\bf 4}]
+	\begin{enumerate}[i)]
+	\item $y'' - 4y' = 8 \cos {\pi x}$
+	\item $(D^2 - I)y = \sinh x $
+	\end{enumerate}
+\item Solve: $ \int \frac{x}{x(x+1)(x+2)} \ dx $\hfill [CO3][{\bf 2}]
+\end{enumerate}
+\end{document}  
+
