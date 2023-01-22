@@ -1,0 +1,7 @@
+NAME[0]="A"
+NAME[1]="B"
+NAME[2]="C"
+NAME[3]="D"
+NAME[4]="E"
+echo "First Index: ${NAME[0]}"
+echo "Second Index: ${NAME[1]}"
